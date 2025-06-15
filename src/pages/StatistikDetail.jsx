@@ -49,8 +49,8 @@ export default function StatistikDetail() {
     };
 
     return (
-      <div className="max-w-5xl mx-auto px-6 py-8">
-        <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
+      <div className="max-w-5xl mx-auto px-6 py-12">
+        <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
           Statistik Peserta per Workshop
         </h1>
 
@@ -127,8 +127,8 @@ export default function StatistikDetail() {
   const ChartComponent = chart.type === 'pie' ? Pie : Bar;
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-8">
-      <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
+    <div className="max-w-5xl mx-auto px-6 py-12">
+      <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
         {chart.title}
       </h1>
 
