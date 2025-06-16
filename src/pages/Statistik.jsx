@@ -3,43 +3,43 @@ import { Link } from 'react-router-dom';
 export default function Statistik() {
   const statistikList = [
     {
-      judul: 'Statistik Peserta Pelatihan per Tahun',
+      judul: 'Peserta Pelatihan per Tahun',
       path: '/statistik/peserta',
     },
     {
-      judul: 'Statistik Kejuruan Terpopuler',
+      judul: 'Kejuruan Terpopuler',
       path: '/statistik/populer',
     },
     {
-      judul: 'Statistik Kelulusan & Penempatan Kerja',
+      judul: 'Kelulusan & Penempatan Kerja',
       path: '/statistik/penempatan',
     },
     {
-      judul: 'Statistik Jenis Pelatihan',
+      judul: 'Jenis Pelatihan',
       path: '/statistik/jenis-pelatihan',
     },
     {
-      judul: 'Statistik Berdasarkan Jenis Kelamin',
+      judul: 'Berdasarkan Jenis Kelamin',
       path: '/statistik/gender',
     },
     {
-      judul: 'Statistik Berdasarkan Usia',
+      judul: 'Berdasarkan Usia',
       path: '/statistik/usia',
     },
     {
-      judul: 'Statistik Berdasarkan Pendidikan',
+      judul: 'Berdasarkan Pendidikan',
       path: '/statistik/pendidikan',
     },
     {
-      judul: 'Statistik Penyandang Disabilitas',
+      judul: 'Penyandang Disabilitas',
       path: '/statistik/disabilitas',
     },
     {
-      judul: 'Statistik Peserta Berdasarkan Wilayah',
+      judul: 'Peserta Berdasarkan Wilayah',
       path: '/statistik/wilayah',
     },
     {
-      judul: 'Statistik Alumni Wirausaha',
+      judul: 'Alumni Wirausaha',
       path: '/statistik/wirausaha',
     },
   ];
@@ -53,9 +53,9 @@ export default function Statistik() {
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
           <thead>
-            <tr className="bg-blue-500 text-white text-left text-sm">
+            <tr className="bg-blue-500 text-white text-left text-md">
               <th className="px-6 py-3 w-3/4">Judul</th>
-              <th className="px-6 py-3">Aksi</th>
+              <th className="px-6 py-3">Detail</th>
             </tr>
           </thead>
           <tbody>
