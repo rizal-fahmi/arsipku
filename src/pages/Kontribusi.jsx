@@ -8,16 +8,16 @@ export default function Kontribusi() {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-gray-800">
         Kontribusi
       </h1>
 
-      <div className="bg-white shadow-lg rounded-lg p-8 space-y-6">
+      <div className="bg-white shadow-lg rounded-lg p-5 sm:p-8 space-y-5 sm:space-y-6">
         {kontribusi.map((item, i) => (
-          <div key={i} className="flex items-start gap-4">
-            <CheckCircleIcon className="w-6 h-6 text-blue-500 mt-1" />
-            <p className="text-gray-700 text-lg">{item}</p>
+          <div key={i} className="flex items-start gap-3 sm:gap-4">
+            <CheckCircleIcon className="w-8 h-8 sm:w-6 sm:h-6 text-blue-500 mt-1" />
+            <p className="text-gray-700 text-base sm:text-lg">{item}</p>
           </div>
         ))}
       </div>
