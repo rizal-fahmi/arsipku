@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo = Link ke Home */}
         <NavLink
           to="/"
-          className="text-2xl font-bold text-gray-600 hover:text-blue-700 transition duration-200"
+          className="text-2xl font-bold text-blue-600 hover:text-blue-400 transition duration-200"
         >
           ArsipKu
         </NavLink>
