@@ -1,5 +1,5 @@
 const peserta = {
-  2020: {
+  2024: {
     'Teknik Manufaktur': 50,
     'Fashion Technology': 32,
     'Las | Welder': 25,
@@ -13,7 +13,7 @@ const peserta = {
     'Pariwisata': 14,
     'Processing': 10,
   },
-  2021: {
+  2023: {
     'Teknik Manufaktur': 55,
     'Fashion Technology': 35,
     'Las | Welder': 30,
@@ -41,7 +41,7 @@ const peserta = {
     'Pariwisata': 18,
     'Processing': 14,
   },
-  2023: {
+  2021: {
     'Teknik Manufaktur': 70,
     'Fashion Technology': 40,
     'Las | Welder': 35,
@@ -55,7 +55,7 @@ const peserta = {
     'Pariwisata': 20,
     'Processing': 16,
   },
-  2024: {
+  2020: {
     'Teknik Manufaktur': 80,
     'Fashion Technology': 42,
     'Las | Welder': 38,

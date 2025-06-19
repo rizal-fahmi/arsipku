@@ -1,104 +1,48 @@
+const colors = {
+  'Teknologi Informasi dan Komunikasi (TIK)': '#3b82f6',
+  'Teknik Manufaktur': '#10b981',
+  Otomotif: '#f59e0b',
+  'Fashion Technology': '#ef4444',
+  'Las | Welder': '#8b5cf6',
+};
+
 const populer = {
-  2020: {
-    title: 'Top 5 Kejuruan Terpopuler Tahun 2020',
-    type: 'bar',
-    data: {
-      labels: [
-        'Teknologi Informasi dan Komunikasi (TIK)',
-        'Teknik Manufaktur',
-        'Otomotif',
-        'Fashion Technology',
-        'Las | Welder',
-      ],
-      datasets: [
-        {
-          label: 'Jumlah Peserta',
-          data: [48, 50, 38, 32, 25],
-          backgroundColor: '#3b82f6',
-        },
-      ],
-    },
-  },
-  2021: {
-    title: 'Top 5 Kejuruan Terpopuler Tahun 2021',
-    type: 'bar',
-    data: {
-      labels: [
-        'Teknologi Informasi dan Komunikasi (TIK)',
-        'Teknik Manufaktur',
-        'Otomotif',
-        'Fashion Technology',
-        'Las | Welder',
-      ],
-      datasets: [
-        {
-          label: 'Jumlah Peserta',
-          data: [52, 55, 40, 35, 30],
-          backgroundColor: '#10b981',
-        },
-      ],
-    },
-  },
-  2022: {
-    title: 'Top 5 Kejuruan Terpopuler Tahun 2022',
-    type: 'bar',
-    data: {
-      labels: [
-        'Teknologi Informasi dan Komunikasi (TIK)',
-        'Teknik Manufaktur',
-        'Otomotif',
-        'Fashion Technology',
-        'Las | Welder',
-      ],
-      datasets: [
-        {
-          label: 'Jumlah Peserta',
-          data: [58, 60, 45, 38, 33],
-          backgroundColor: '#f59e0b',
-        },
-      ],
-    },
+  2024: {
+    'Teknologi Informasi dan Komunikasi (TIK)': 48,
+    'Teknik Manufaktur': 50,
+    Otomotif: 38,
+    'Fashion Technology': 32,
+    'Las | Welder': 25,
   },
   2023: {
-    title: 'Top 5 Kejuruan Terpopuler Tahun 2023',
-    type: 'bar',
-    data: {
-      labels: [
-        'Teknologi Informasi dan Komunikasi (TIK)',
-        'Teknik Manufaktur',
-        'Otomotif',
-        'Fashion Technology',
-        'Las | Welder',
-      ],
-      datasets: [
-        {
-          label: 'Jumlah Peserta',
-          data: [70, 65, 50, 40, 35],
-          backgroundColor: '#ef4444',
-        },
-      ],
-    },
+    'Teknologi Informasi dan Komunikasi (TIK)': 52,
+    'Teknik Manufaktur': 55,
+    Otomotif: 40,
+    'Fashion Technology': 35,
+    'Las | Welder': 30,
   },
-  2024: {
-    title: 'Top 5 Kejuruan Terpopuler Tahun 2024',
-    type: 'bar',
-    data: {
-      labels: [
-        'Teknologi Informasi dan Komunikasi (TIK)',
-        'Teknik Manufaktur',
-        'Otomotif',
-        'Fashion Technology',
-        'Las | Welder',
-      ],
-      datasets: [
-        {
-          label: 'Jumlah Peserta',
-          data: [80, 70, 55, 42, 38],
-          backgroundColor: '#8b5cf6',
-        },
-      ],
-    },
+  2022: {
+    'Teknologi Informasi dan Komunikasi (TIK)': 58,
+    'Teknik Manufaktur': 60,
+    Otomotif: 45,
+    'Fashion Technology': 38,
+    'Las | Welder': 33,
+  },
+  2021: {
+    'Teknologi Informasi dan Komunikasi (TIK)': 70,
+    'Teknik Manufaktur': 65,
+    Otomotif: 50,
+    'Fashion Technology': 40,
+    'Las | Welder': 35,
+  },
+  2020: {
+    'Teknologi Informasi dan Komunikasi (TIK)': 80,
+    'Teknik Manufaktur': 70,
+    Otomotif: 55,
+    'Fashion Technology': 42,
+    'Las | Welder': 38,
   },
 };
 
+export { colors };
 export default populer;
